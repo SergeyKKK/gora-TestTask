@@ -7,18 +7,11 @@
 
 import UIKit
 
-final class BaseViewController: UIViewController {
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        showAlert()
+class BaseViewController: UIViewController {
+    func showAlertError(text: String) {
+        let alert = UIAlertController(title: nil, message: text, preferredStyle: .alert)
+        let action = UIAlertAction(title: "OK", style: .default) { (action) in }
+        alert.addAction(action)
+        present(alert, animated: true, completion: nil)
     }
-    
-    func showAlertInternetConnection() {
-      let alert = UIAlertController(title: nil, message: "Проверьте подключение", preferredStyle: .alert)
-      let action = UIAlertAction(title: "OK", style: .default) { (action) in }
-      alert.addAction(action)
-      present(alert, animated: true, completion: nil)
-  }
 }

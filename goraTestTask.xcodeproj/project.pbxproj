@@ -16,6 +16,15 @@
 		0CD810D1278E280D00A193E1 /* goraTestTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD810D0278E280D00A193E1 /* goraTestTaskTests.swift */; };
 		0CD810DB278E280D00A193E1 /* goraTestTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD810DA278E280D00A193E1 /* goraTestTaskUITests.swift */; };
 		0CD810DD278E280D00A193E1 /* goraTestTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD810DC278E280D00A193E1 /* goraTestTaskUITestsLaunchTests.swift */; };
+		0CD810EC278E286D00A193E1 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD810EB278E286D00A193E1 /* NetworkService.swift */; };
+		0CD810F2278E28E900A193E1 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD810F1278E28E900A193E1 /* UsersViewController.swift */; };
+		0CD810F5278E29D500A193E1 /* UsersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD810F4278E29D500A193E1 /* UsersModel.swift */; };
+		0CD810F8278E2A0E00A193E1 /* UsersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD810F7278E2A0E00A193E1 /* UsersTableViewCell.swift */; };
+		0CD810FA278E2BE100A193E1 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD810F9278E2BE100A193E1 /* PhotosViewController.swift */; };
+		0CD810FD278E2C1A00A193E1 /* PhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD810FC278E2C1A00A193E1 /* PhotosModel.swift */; };
+		0CD81100278E2C4F00A193E1 /* PhotosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD810FF278E2C4F00A193E1 /* PhotosTableViewCell.swift */; };
+		0CD81106278F0F3E00A193E1 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD81105278F0F3E00A193E1 /* UIView.swift */; };
+		0CD81109278F144F00A193E1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD81108278F144F00A193E1 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,15 @@
 		0CD810D6278E280D00A193E1 /* goraTestTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = goraTestTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD810DA278E280D00A193E1 /* goraTestTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goraTestTaskUITests.swift; sourceTree = "<group>"; };
 		0CD810DC278E280D00A193E1 /* goraTestTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goraTestTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0CD810EB278E286D00A193E1 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		0CD810F1278E28E900A193E1 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		0CD810F4278E29D500A193E1 /* UsersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersModel.swift; sourceTree = "<group>"; };
+		0CD810F7278E2A0E00A193E1 /* UsersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewCell.swift; sourceTree = "<group>"; };
+		0CD810F9278E2BE100A193E1 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		0CD810FC278E2C1A00A193E1 /* PhotosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosModel.swift; sourceTree = "<group>"; };
+		0CD810FF278E2C4F00A193E1 /* PhotosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosTableViewCell.swift; sourceTree = "<group>"; };
+		0CD81105278F0F3E00A193E1 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		0CD81108278F144F00A193E1 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +97,12 @@
 		0CD810AD278E280A00A193E1 = {
 			isa = PBXGroup;
 			children = (
+				0CD810E9278E283C00A193E1 /* AppDelegate */,
+				0CD810EA278E285E00A193E1 /* NetworkService */,
+				0CD810EE278E289F00A193E1 /* Controllers */,
+				0CD81104278F0F2900A193E1 /* Extensions */,
+				0CD81107278F143B00A193E1 /* BaseViewController */,
+				0CD810ED278E288500A193E1 /* Supports */,
 				0CD810B8278E280A00A193E1 /* goraTestTask */,
 				0CD810CF278E280D00A193E1 /* goraTestTaskTests */,
 				0CD810D9278E280D00A193E1 /* goraTestTaskUITests */,
@@ -99,13 +123,9 @@
 		0CD810B8278E280A00A193E1 /* goraTestTask */ = {
 			isa = PBXGroup;
 			children = (
-				0CD810B9278E280A00A193E1 /* AppDelegate.swift */,
 				0CD810BB278E280A00A193E1 /* SceneDelegate.swift */,
 				0CD810BD278E280A00A193E1 /* ViewController.swift */,
 				0CD810BF278E280A00A193E1 /* Main.storyboard */,
-				0CD810C2278E280D00A193E1 /* Assets.xcassets */,
-				0CD810C4278E280D00A193E1 /* LaunchScreen.storyboard */,
-				0CD810C7278E280D00A193E1 /* Info.plist */,
 			);
 			path = goraTestTask;
 			sourceTree = "<group>";
@@ -125,6 +145,109 @@
 				0CD810DC278E280D00A193E1 /* goraTestTaskUITestsLaunchTests.swift */,
 			);
 			path = goraTestTaskUITests;
+			sourceTree = "<group>";
+		};
+		0CD810E9278E283C00A193E1 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0CD810B9278E280A00A193E1 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0CD810EA278E285E00A193E1 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				0CD810EB278E286D00A193E1 /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		0CD810ED278E288500A193E1 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				0CD810C7278E280D00A193E1 /* Info.plist */,
+				0CD810C4278E280D00A193E1 /* LaunchScreen.storyboard */,
+				0CD810C2278E280D00A193E1 /* Assets.xcassets */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		0CD810EE278E289F00A193E1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0CD810EF278E28AF00A193E1 /* Users */,
+				0CD810F0278E28B800A193E1 /* Photos */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0CD810EF278E28AF00A193E1 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				0CD810F1278E28E900A193E1 /* UsersViewController.swift */,
+				0CD810F6278E29FD00A193E1 /* UsersTableViewCell */,
+				0CD810F3278E290100A193E1 /* Models */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		0CD810F0278E28B800A193E1 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				0CD810F9278E2BE100A193E1 /* PhotosViewController.swift */,
+				0CD810FE278E2C2000A193E1 /* PhotosTableViewCell */,
+				0CD810FB278E2C0800A193E1 /* Models */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		0CD810F3278E290100A193E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0CD810F4278E29D500A193E1 /* UsersModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0CD810F6278E29FD00A193E1 /* UsersTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0CD810F7278E2A0E00A193E1 /* UsersTableViewCell.swift */,
+			);
+			path = UsersTableViewCell;
+			sourceTree = "<group>";
+		};
+		0CD810FB278E2C0800A193E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0CD810FC278E2C1A00A193E1 /* PhotosModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0CD810FE278E2C2000A193E1 /* PhotosTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0CD810FF278E2C4F00A193E1 /* PhotosTableViewCell.swift */,
+			);
+			path = PhotosTableViewCell;
+			sourceTree = "<group>";
+		};
+		0CD81104278F0F2900A193E1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0CD81105278F0F3E00A193E1 /* UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0CD81107278F143B00A193E1 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0CD81108278F144F00A193E1 /* BaseViewController.swift */,
+			);
+			path = BaseViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +381,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CD81100278E2C4F00A193E1 /* PhotosTableViewCell.swift in Sources */,
 				0CD810BE278E280A00A193E1 /* ViewController.swift in Sources */,
+				0CD81106278F0F3E00A193E1 /* UIView.swift in Sources */,
+				0CD810FA278E2BE100A193E1 /* PhotosViewController.swift in Sources */,
+				0CD810FD278E2C1A00A193E1 /* PhotosModel.swift in Sources */,
 				0CD810BA278E280A00A193E1 /* AppDelegate.swift in Sources */,
+				0CD81109278F144F00A193E1 /* BaseViewController.swift in Sources */,
+				0CD810F5278E29D500A193E1 /* UsersModel.swift in Sources */,
+				0CD810F8278E2A0E00A193E1 /* UsersTableViewCell.swift in Sources */,
+				0CD810F2278E28E900A193E1 /* UsersViewController.swift in Sources */,
+				0CD810EC278E286D00A193E1 /* NetworkService.swift in Sources */,
 				0CD810BC278E280A00A193E1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,7 +575,7 @@
 				INFOPLIST_FILE = goraTestTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -451,11 +583,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kkk.goraTestTask;
+				PRODUCT_BUNDLE_IDENTIFIER = com.habiesmart.myapps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -470,7 +602,7 @@
 				INFOPLIST_FILE = goraTestTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -478,11 +610,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kkk.goraTestTask;
+				PRODUCT_BUNDLE_IDENTIFIER = com.habiesmart.myapps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
